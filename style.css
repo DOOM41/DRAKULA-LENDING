@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-  width: 375px;
+  width: 100%;
   height: 667px;
   background-color: rgb(85, 83, 83);
   margin: 0 auto;
@@ -12,9 +12,7 @@
 
 .nav {
   display: flex;
-  padding-top: 16px;
-  width: 350px;
-
+  width: 100%;
   margin: 0 auto;
   align-items: center;
 }
@@ -24,9 +22,7 @@
 }
 
 .main {
-  margin-top: 260px;
   text-align: center;
-
 }
 /*#################################################*/
 #menu__toggle {
@@ -69,6 +65,7 @@
   width: 100%;
   height: 100%;
   margin: 0;
+  margin-left: 19px;
   padding: 80px 0;
   list-style: none;
   text-align: center;
@@ -119,17 +116,12 @@
 }
 /*#################################################*/
 .drakula {
-  text-shadow: 1px 1px 2px black, 0 0 1em red;
 
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
   line-height: 50px;
-
-
   letter-spacing: 0.38px;
-
   color: #242222;
 }
 
@@ -137,10 +129,8 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;
-  font-size: 10px;
 
   /* or 570% */
-
 
   letter-spacing: 0.38px;
 
@@ -154,52 +144,37 @@
 }
 
 .novost {
-  padding-top: 19px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
   line-height: 50px;
   text-align: center;
   letter-spacing: 0.38px;
-
   color: #242222;
-  text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
 
 .wrapper2 {
-  width: 375px;
+  width: 100%;
   height: 667px;
   background-color: rgb(94, 94, 94);
   margin: 0 auto;
 }
 
 .kvadrat {
-  width: 77px;
-  height: 85px;
   left: 28px;
   top: 85px;
-
   background: #D9D9D9;
   border-radius: 11px;
-}
-
-.container {
-  margin-left: 28px;
-  margin-top: 16px;
 }
 
 .flex2 p {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;
-  font-size: 10px;
 
   /* or 570% */
 
-
   letter-spacing: 0.38px;
-
   color: #000000;
 
 }
@@ -207,7 +182,6 @@
 .flex2 {
   display: flex;
   align-items: center;
-  padding-top: 19px;
 
 }
 
@@ -222,19 +196,9 @@
 }
 
 .but {
-
-  width: 71px;
-  height: 19px;
-
-
   background: rgba(24, 24, 24, 0.7);
   backdrop-filter: blur(40px);
   /* Note: backdrop-filter has minimal browser support */
-
-  border-radius: 13px;
-
-  margin: 0 auto;
-  margin-top: 35px;
 }
 
 .but p {
@@ -255,8 +219,8 @@
 }
 
 .wrapper3 {
-  width: 375px;
-  height: 667px;
+  width: 100%;
+  height: 100%;
   background-color: rgb(94, 94, 94);
   margin: 0 auto;
 
@@ -282,7 +246,7 @@
 .flexik {
   display: flex;
   margin: 0 auto;
-  width: 350px;
+  width: 100%;
 }
 
 .cont {
@@ -321,7 +285,7 @@ html {
 .restaurant {
   background-color: #525252;
   display: flex;
-  width: 375px;
+  width: 100%;
   height: 667px;
   max-height: 667px;
   align-items: center;
@@ -476,4 +440,16 @@ html {
   margin-right: 14px;
 
   background: #000000;
+}
+.brg_t
+{
+  display: none;
+}
+#del_2
+{
+  opacity: 0;
+}
+.cont_m
+{
+  height: 498px;
 }

@@ -1,0 +1,132 @@
+@media screen and (min-height: 720px) and (min-width: 720px) {
+    .wrapper {
+        width: 1440px;
+        height: 1024px;
+    }
+
+    .drakula {
+        text-shadow: 1px 1px 1px black, 0 0 0.5em red;
+        font-size: 36px;
+    }
+
+    .main {
+        margin-top: 347px;
+    }
+
+    .opis {
+        font-size: 32px;
+
+    }
+
+    .menu__btn {
+        display: none;
+    }
+
+    #search_btn {
+        display: none;
+    }
+
+    .nav {
+        padding-top: 40px;
+        width: 1440px;
+    }
+
+    .left {
+        margin-right: 74px;
+    }
+
+    #info_btn {
+        width: 65px;
+        height: 55px;
+    }
+
+    .brg_t {
+        display: flex;
+        width: 699px;
+        justify-content: space-between;
+        margin-left: 33.8%;
+    }
+
+    .href_main {
+        font-size: 24px;
+        font-family: Raleway;
+        text-decoration: none;
+        color: #000000;
+        letter-spacing: 0.38px;
+        font-weight: bold;
+    }
+
+    /*###################################################*/
+    .wrapper2 {
+        width: 1440px;
+        height: 1024px;
+    }
+
+    .novost {
+        padding-top: 92px;
+        font-size: 32px;
+        text-shadow: 1px 1px 1px black, 0 0 0.5em red;
+    }
+
+    #del {
+        opacity: 0;
+    }
+
+    .kvadrat {
+        width: 137px;
+        height: 135px;
+    }
+
+    #cont_m {
+        width: 1440px;
+        height: 465px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 105px;
+    }
+
+    .container {
+        margin-left: 0;
+        margin-top: 0;
+        height: 465px;
+    }
+
+    #del_2 {
+        opacity: 100%;
+        margin-right: 126px;
+    }
+
+    .flex2 p {
+        font-size: 24px;
+    }
+
+    .flex2 {
+        padding-top: 30px;
+    }
+
+    .text {
+        margin-left: 56px;
+    }
+
+    .but {
+        width: 105px;
+        height: 29px;
+        border-radius: 13px;
+        margin: 0 auto;
+        margin-top: 110px;
+    }
+
+    .but p {
+
+        line-height: 1.85;
+
+    }
+
+    #marg_1 {
+        margin-left: 126px;
+    }
+
+    #marg_2 {
+        margin-right: 126px;
+    }
+}
