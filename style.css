@@ -71,6 +71,8 @@
   text-align: center;
   background-color: #525252;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  z-index: 999;
+
 }
 .menu__item {
   width: 342px;
@@ -84,6 +86,9 @@
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu__item:focus {
   border-bottom: #CFD8DC;
