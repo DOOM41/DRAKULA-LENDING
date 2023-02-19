@@ -1,71 +1,84 @@
 @media (max-width: 768px) {
-    .wrapper
+    html 
     {
+        width: 100%;
+        max-width: 100%;
+        overflow-x:hidden;
+    }
+    body {
+        width: 100%;
+        max-width: 100%;
+        background-color: #000000;
+        overflow-x:hidden;
+    }
+    .wrapper {
         width: 375px;
     }
-    .wrapper2
-    {
+
+    .wrapper2 {
         width: 375px;
     }
-    .restaurant
-    {
+
+    .restaurant {
         width: 375px;
     }
-    .nav
-    {
+
+    .nav {
         padding-top: 16px;
     }
-    .main
-    {
+
+    .main {
         margin-top: 260px;
     }
-    .drakula
-    {
+
+    .drakula {
         text-shadow: 1px 1px 2px black, 0 0 1em red;
         font-size: 22px;
     }
-    .opis
-    {
+
+    .opis {
         font-size: 10px;
     }
-    .novost
-    {
+
+    .novost {
         padding-top: 19px;
         font-size: 20px;
         text-shadow: 1px 1px 2px black, 0 0 1em red;
 
     }
-    .kvadrat
-    {
+
+    .kvadrat {
         width: 77px;
         height: 85px;
     }
-    .container
-    {
+
+    .container {
         margin-left: 28px;
         margin-top: 16px;
     }
+
     .flex2 p {
         font-size: 10px;
     }
-    .flex2
-    {
+
+    .flex2 {
         padding-top: 19px;
     }
+
     .but {
 
         width: 71px;
         height: 19px;
-      
-      
+
+
         background: rgba(24, 24, 24, 0.7);
         backdrop-filter: blur(40px);
         /* Note: backdrop-filter has minimal browser support */
-      
+
         border-radius: 13px;
-      
+
         margin: 0 auto;
         margin-top: -305px;
-      }
-      
+    }
+
 }
