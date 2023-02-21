@@ -9,8 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
-  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-
+  <link rel="stylesheet" href="styledesktop.css">
+  <link rel="stylesheet" href="stylephone.css">
 </head>
 
 <body>
@@ -24,76 +24,102 @@
             <span></span>
           </label>
           <ul class="menu__box">
-            <center style="height: 202px; display: flex; justify-content: space-between; flex-direction: column;">
-              <li><a class="menu__item" href="#">ресторан</a></li>
-              <li><a class="menu__item" href="#">меню</a></li>
-              <li><a class="menu__item" href="#">спец предложение</a></li>
+            <div class="menu_info">
+              <li><a class="menu__item" href="#">Ресторан</a></li>
+              <li><a class="menu__item" href="#">Меню</a></li>
+              <li><a class="menu__item" href="#">Спец предложение</a></li>
               <div id="brgopis">
                 <p class="opis">Описание Описание Описание</p>
                 <p class="opis">Описание Описание Описание</p>
                 <p class="opis">Описание Описание Описание</p>
                 <p class="opis">Описание Описание Описание</p>
               </div>
-            </center>
+            </div>
           </ul>
         </div>
+        <div class="brg_t">
+          <a href="" class="href_main">Спец предложение</a>
+          <a href="" class="href_main">Меню</a>
+          <a href="" class="href_main">Ресторан</a>
+        </div>
         <div class="left">
-          <img src="img/Search.png" alt="" width="33px" height="29px">
-          <img src="img/Info.png" alt="" width="38px" height="32px">
+          <img id="search_btn" src="img/Search.png" alt="" width="33px" height="29px">
+          <img id="info_btn" src="img/Info.png" alt="" width="38px" height="32px">
         </div>
       </div>
     </div>
     <div class="main">
       <p class="drakula">Граф Дракула</p>
 
-      <p class="opis">Описание Описание Описание</p>
-      <p class="opis">Описание Описание Описание</p>
+      <p class="opis">описание описание описание</p>
+      <p class="opis">описание описание описание</p>
 
     </div>
   </div>
   <div class="wrapper2">
-
-
     <p class="novost">НОВОСТИ</p>
+    <div id="cont_m">
+      <div class="container" class="marg_1" id="marg_1">
+        <div class="flex2">
+          <div class="kvadrat"></div>
+          <div class="text">
+            <p>описание описание описание</p>
+            <p>описание описание описание</p>
+          </div>
+        </div>
+        <div class="flex2">
+          <div class="kvadrat"></div>
+          <div class="text">
+            <p>описание описание описание</p>
+            <p>описание описание описание</p>
+          </div>
+        </div>
+        <div class="flex2">
+          <div class="kvadrat"></div>
+          <div class="text">
+            <p>описание описание описание</p>
+            <p>описание описание описание</p>
+          </div>
+        </div>
+        <div class="flex2">
+          <div class="kvadrat" id="del"></div>
+          <div class="text" id="del">
+            <p>описание описание описание</p>
+            <p>описание описание описание</p>
+          </div>
+        </div>
+        <div class="flex2">
+          <div class="kvadrat" id="del"></div>
+          <div class="text" id="del">
+            <p>описание описание описание</p>
+            <p>описание описание описание</p>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="del_2">
+        <div class="flex2">
+          <div class="kvadrat"></div>
 
-    <div class="container">
-      <div class="flex2">
-        <div class="kvadrat"></div>
-
-        <div class="text">
-          <p>описание описание описание</p>
-          <p>описание описание описание</p>
+          <div class="text">
+            <p>описание описание описание</p>
+            <p>описание описание описание</p>
+          </div>
+        </div>
+        <div class="flex2">
+          <div class="kvadrat"></div>
+          <div class="text">
+            <p>описание описание описание</p>
+            <p>описание описание описание</p>
+          </div>
+        </div>
+        <div class="flex2">
+          <div class="kvadrat"></div>
+          <div class="text">
+            <p>описание описание описание</p>
+            <p>описание описание описание</p>
+          </div>
         </div>
       </div>
-      <div class="flex2">
-        <div class="kvadrat"></div>
-        <div class="text">
-          <p>описание описание описание</p>
-          <p>описание описание описание</p>
-        </div>
-      </div>
-      <div class="flex2">
-        <div class="kvadrat"></div>
-        <div class="text">
-          <p>описание описание описание</p>
-          <p>описание описание описание</p>
-        </div>
-      </div>
-      <div class="flex2">
-        <div class="kvadrat"></div>
-        <div class="text">
-          <p>описание описание описание</p>
-          <p>описание описание описание</p>
-        </div>
-      </div>
-      <div class="flex2">
-        <div class="kvadrat"></div>
-        <div class="text">
-          <p>описание описание описание</p>
-          <p>описание описание описание</p>
-        </div>
-      </div>
-
     </div>
     <div class="but">
       <p class="eshe">еще</p>
@@ -149,6 +175,7 @@
       <div class="square"></div>
     </div>
   </div>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 </body>
 
 </html>
