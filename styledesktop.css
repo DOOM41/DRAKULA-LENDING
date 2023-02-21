@@ -1,9 +1,6 @@
-@media screen and (min-width: 720px) {
-    body {
-        background-color: #000000;
-    }
+@media screen  and (min-width: 720px) {
     .wrapper {
-        width: 75%;
+        width: 1440px;
         height: 1024px;
     }
 
@@ -31,7 +28,7 @@
 
     .nav {
         padding-top: 40px;
-        width: 75%;
+        width: 1440px;
     }
 
     .left {
@@ -61,7 +58,7 @@
 
     /*###################################################*/
     .wrapper2 {
-        width: 75%;
+        width: 1440px;
         height: 1024px;
     }
 
@@ -81,7 +78,7 @@
     }
 
     #cont_m {
-        width: 100%;
+        width: 1440px;
         height: 465px;
         display: flex;
         justify-content: space-between;
@@ -132,4 +129,44 @@
     #marg_2 {
         margin-right: 126px;
     }
+    .title{
+        font-size: 32px;
+        padding-top: 92px;
+
+    }
+    .cards{
+        width:700px;
+    }
+    .card_image{
+        width:300px;
+        height:200px;
+    }
+    .card_title{
+        font-size:20px;
+        font-weight: bold;
+    }
+    .card_text{
+        font-size:20px;
+        font-weight: bold;
+    }
+    .special_blocks{
+        margin-top:50px;
+      
+    }
+    .special_block{
+        width: 200px;
+    }
+    .special_circle{
+        width: 200px;
+        height: 250px;
+      
+        background: #d9d9d9;
+        
+    }
+    .special_text{
+    font-size: 20px;
+    padding-bottom: 100px;
+    font-weight: bold;
+    }
+    
 }
