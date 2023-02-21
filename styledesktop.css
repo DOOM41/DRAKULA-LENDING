@@ -1,4 +1,4 @@
-@media screen and (min-height: 720px) and (min-width: 720px) {
+@media screen  and (min-width: 720px) {
     .wrapper {
         width: 1440px;
         height: 1024px;
@@ -129,4 +129,44 @@
     #marg_2 {
         margin-right: 126px;
     }
+    .title{
+        font-size: 32px;
+        padding-top: 92px;
+
+    }
+    .cards{
+        width:700px;
+    }
+    .card_image{
+        width:300px;
+        height:200px;
+    }
+    .card_title{
+        font-size:20px;
+        font-weight: bold;
+    }
+    .card_text{
+        font-size:20px;
+        font-weight: bold;
+    }
+    .special_blocks{
+        margin-top:50px;
+      
+    }
+    .special_block{
+        width: 200px;
+    }
+    .special_circle{
+        width: 200px;
+        height: 250px;
+      
+        background: #d9d9d9;
+        
+    }
+    .special_text{
+    font-size: 20px;
+    padding-bottom: 100px;
+    font-weight: bold;
+    }
+    
 }
