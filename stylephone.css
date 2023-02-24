@@ -1,140 +1,72 @@
 @media (max-width: 768px) {
-    html {
-        width: 100%;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-    body {
-        width: 100%;
-        max-width: 100%;
-        background-color: #000000;
-        overflow-x: hidden;
-    }
-
-    .wrapper {
-        width: 375px;
-        background: url(img/image\ 27.png);
-    }
-    #graf_logo
+    .wrapper
     {
-        width: 140px;
-        position: absolute;
-        margin-left: 53.6%;
-        margin-top: 14%;
-    }
-    .wrapper2 {
-        width: 375px;
-        background-color: #1e1e1e;
-        z-index: 0;
-    }
-    #redback
-    {
-        position: absolute;
-        background-color: #780000;
-        width: 327px;
-        height: 521px;
-        border-radius: 31px;
-        z-index: -1;
-        margin-left: 5.2%;
-        margin-top: 6%;
-    }
-    #line_news_pos
-    {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    #st_line_news
-    {
-        width: 145px;
-        height: 3px;
-        background-color: #ffffff;
-        margin-top: 8px;
-        position: absolute;
-    }
-    #nd_line_news
-    {
-        width: 145px;
-        height: 3px;
-        background-color: #ffffff;
-        position: absolute;
-        margin-top: -305px;
-    }
-    .left_pos_sq
-    {
-        margin-left: 20%;
-        position: absolute;
-        width: 319px;
-        display: flex;
-        justify-content: right;
-        margin-top: 849px;
-    }
-    .restaurant {
         width: 375px;
     }
-
-    .nav {
-        padding-top: 32px;
+    .wrapper2
+    {
+        width: 375px;
     }
-
-    .main {
+    .restaurant
+    {
+        width: 375px;
+    }
+    .nav
+    {
+        padding-top: 16px;
+    }
+    .main
+    {
         margin-top: 260px;
     }
-
-    .drakula {
-        width: 140px;
-        margin-top: -3%
-    }
-
-    .opis {
-        font-size: 13px;
-        font-family: 'Cormorant SC';
-        font-style: normal;
-        font-weight: 300;
-        /* or 570% */
-        letter-spacing: 0.38px;
-        color: #ffffff;
-    }
-
-    #phone_marg_opis
+    .drakula
     {
-        margin-top: -59%;
+        text-shadow: 1px 1px 2px black, 0 0 1em red;
+        font-size: 22px;
     }
-    .novost {
-        padding-top: 28px;
+    .opis
+    {
+        font-size: 10px;
+    }
+    .novost
+    {
+        padding-top: 19px;
         font-size: 20px;
-        font-weight: bold;
-    }
+        text-shadow: 1px 1px 2px black, 0 0 1em red;
 
-    .kvadrat {
+    }
+    .kvadrat
+    {
         width: 77px;
         height: 85px;
-        background: url(img/Rectangle\ 67.png);
     }
-
-    .container {
+    .container
+    {
         margin-left: 28px;
         margin-top: 16px;
     }
-
     .flex2 p {
         font-size: 10px;
     }
-
-    .flex2 {
+    .flex2
+    {
         padding-top: 19px;
     }
-
     .but {
-        border-radius: 11px;
-        width: 87px;
-        height: 17px;
-        background: #780000;
+
+        width: 71px;
+        height: 19px;
+      
+      
+        background: rgba(24, 24, 24, 0.7);
         backdrop-filter: blur(40px);
         /* Note: backdrop-filter has minimal browser support */
+      
+        border-radius: 13px;
+      
         margin: 0 auto;
-        margin-top: -290px;
-    }
-    
+        margin-top: -305px;
+      }
+ 
+
 }
